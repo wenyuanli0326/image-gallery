@@ -1,0 +1,49 @@
+/* @media screen and (min-width:992px) {
+    .small-breakpoint {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .small-breakpoint {
+        background-color: red;
+    }
+} */
+
+.slick-slide.slick-center img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    height: 100%;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.cont {
+    position: relative;
+    transform: translateY(50%);
+}
+
+
+/* .slick-slide {
+  height:500px;
+} */
+
+.slick-slide img {
+    height: 300px;
+    width: 500px;
+}
+
+.slick-slide {
+    opacity: 0;
+}
+
+.slick-slide.slick-center {
+    opacity: 1;
+}
